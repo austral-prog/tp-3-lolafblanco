@@ -1,5 +1,5 @@
 def check_vowels():
-    name = input()
+    name = input("")
     name = str(name).lower()
     print(f"contiene a:{("a" in name)}")
     print(f"contiene e:{("e" in name)}")
